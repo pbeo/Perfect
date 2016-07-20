@@ -19,12 +19,12 @@
 
 import PackageDescription
 
-var urls = ["https://github.com/PerfectlySoft/Perfect-Net.git"]
+var urls = ["https://github.com/pbeo/Perfect-Net.git"]
 
 #if os(Linux)
 urls += ["https://github.com/PerfectlySoft/Perfect-OpenSSL-Linux.git", "https://github.com/PerfectlySoft/Perfect-LinuxBridge.git"]
 #else
-urls += ["https://github.com/PerfectlySoft/Perfect-OpenSSL.git"]
+urls += ["https://github.com/pbeo/Perfect-OpenSSL.git"]
 #endif
 
 let package = Package(
